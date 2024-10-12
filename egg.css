@@ -1,0 +1,78 @@
+@font-face
+{
+	font-family: 'EasterTime';
+	src: url(fonts/EasterTime.ttf);
+
+}
+
+@font-face
+{
+	font-family: 'HappyEaster';
+	src: url(fonts/HappyEaster.ttf);
+}
+
+@font-face
+{
+	font-family: 'EasterFun';
+	src: url(fonts/EasterFun.ttf);
+}
+
+*
+{
+	margin: 0px;
+}
+
+
+.heading
+{
+	padding: 20px;
+	background-color: #03befc; /*blue strip*/
+	text-align: center;
+	font-family: EasterTime;
+	font-size: 45px;
+	color: #F8DEDE;
+}
+
+
+.rectangle1
+{
+	height: 300px;
+	width: 450px;
+	position: relative;
+	left: 190px;
+	top:150px;
+	border: 3px solid black
+
+}
+
+.rectangle2
+{
+	height: 300px;
+	width: 450px;
+	position: relative;
+	left: 1300px;
+	top:-150px;
+	border: 3px solid black
+
+}
+
+#individual
+{
+	text-align: center;
+	position: relative;
+	top: 120px;
+}
+
+#teams
+{
+	text-align: center;
+	position: relative;
+	top: 120px;
+}
+
+p
+{
+	font-size: 40px;
+	font-family: EasterFun;
+}
+
